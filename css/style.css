@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'DSDigitalBoldItalic';
+    src: url('../fonts/ds-digit-webfont.eot');
+    src: url('../fonts/ds-digit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ds-digit-webfont.woff') format('woff'),
+         url('../fonts/ds-digit-webfont.ttf') format('truetype'),
+         url('../fonts/ds-digit-webfont.svg#DSDigitalBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+}
+
+#clock {
+    font-family: 'DSDigitalBoldItalic';
+    font-size: 10em;
+    text-align: center;
+    color: #edb025;
+    padding: 10px;
+    margin: 0 auto;
+    text-shadow: 3px 3px 3px #4f4a43;
+    width: 80%;
+    background-color: #000;
+}
